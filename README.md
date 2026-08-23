@@ -1,7 +1,7 @@
 <h1 align="center">INFINITE [NODE-B]</h1>
 
 <p align="center">
-  <img width="599" height="114" alt="INFINITE Header" src="https://github.com/user-attachments/assets/3ea4a38a-b114-44b0-8ae6-38fa0663d31b" />
+  <img width="501" height="117" alt="Screenshot 2026-08-23 123737" src="https://github.com/user-attachments/assets/855a2de5-71f0-4d73-a762-8e94cbbe5492" />
 </p>
 
 <p align="center">
