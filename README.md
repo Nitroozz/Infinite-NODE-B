@@ -1,31 +1,54 @@
-<p align="center"><img src="https://raw.githubusercontent.com/titaniumnetwork-dev/Ultraviolet-Static/main/public/uv.png" height="200"></p>
+<h1 align="center">INFINITE [NODE-B]</h1>
 
-<h1 align="center">Ultraviolet-App</h1>
+<p align="center">
+  <img width="599" height="114" alt="INFINITE Header" src="https://github.com/user-attachments/assets/3ea4a38a-b114-44b0-8ae6-38fa0663d31b" />
+</p>
 
-> [!CAUTION]
-> Please note that this project isn't really maintained anymore before making issues! It has been superseded by [Scramjet](https://github.com/MercuryWorkshop/scramjet). An example application setup can be found [here](https://github.com/MercuryWorkshop/Scramjet-App).
+<p align="center">
+  <a href="#-overview">Overview</a> •
+  <a href="#-supported-sites">Supported Sites</a> •
+  <a href="#-setup--usage">Setup & Usage</a> •
+  <a href="#-credits--acknowledgments">Credits</a>
+</p>
 
-The deployable all-in-one bundle for [Ultraviolet](https://github.com/titaniumnetwork-dev/Ultraviolet), a highly sophisticated proxy used for evading internet censorship or accessing websites in a controlled sandbox using the power of service-workers and more!
+---
 
-## Deployment
+## 📌 Overview
 
-[![Run on Replit](https://binbashbanana.github.io/deploy-buttons/buttons/remade/replit.svg)](https://github.com/titaniumnetwork-dev/Ultraviolet-App/wiki/Run-on-Replit)
-[![Deploy on Railway](https://binbashbanana.github.io/deploy-buttons/buttons/remade/railway.svg)](https://github.com/titaniumnetwork-dev/Ultraviolet-App/wiki/Deploy-on-Railway)
-[![Deploy to Koyeb](https://binbashbanana.github.io/deploy-buttons/buttons/remade/koyeb.svg)](https://github.com/titaniumnetwork-dev/Ultraviolet-App/wiki/Deploy-to-Koyeb)
+**INFINITE [NODE-B]** serves as a high-speed secondary node designed to complement Node A within the INFINITE proxy ecosystem.
 
-If you are deploying to an alternative service or to a server, refer to [Deploy via terminal](https://github.com/titaniumnetwork-dev/Ultraviolet-App/wiki/Deploy-via-terminal).
+This implementation leverages **Ultraviolet** by **Titanium Network**, utilizing service worker interceptors and Wisp WebSocket transport. Node B delivers robust client-side link rewriting and high-compatibility web proxying to ensure smooth streaming, dynamic assets, and unblocked browsing across restricted environments.
 
-Additional information such as [customizing your frontend](https://github.com/titaniumnetwork-dev/Ultraviolet-App/wiki/Customizing-your-frontend) can be found on the [wiki](https://github.com/titaniumnetwork-dev/Ultraviolet-App/wiki).
+---
 
-Support and updates can be found in our [Discord Server](discord.gg/unblock).
+## 🌐 Supported Sites
 
-> [!IMPORTANT]  
-> Until deployed on a domain with a valid SSL certificate, Firefox will not be able to load the site. Use chromium for testing on localhost
+Node B is optimized for high-traffic web applications, media streaming, and modern JS-heavy platforms:
 
-### HTTP Transport
+- [YouTube](https://youtube.com)
+- [Discord](https://discord.com)
+- [Spotify](https://spotify.com)
+- [Reddit](https://reddit.com)
+- [Google](https://google.com)
+- [X (Twitter)](https://twitter.com)
+- [Instagram](https://instagram.com)
+- [GeForce NOW](https://play.geforcenow.com/)
 
-The example uses [EpoxyTransport](https://github.com/MercuryWorkshop/EpoxyTransport) to fetch proxied data encrypted.
+> **Note:** For maximum video streaming stability and minimal CAPTCHA challenges, run Node B on a clean residential or non-flagged hosting IP.
 
-You may also want to use [CurlTransport](https://github.com/MercuryWorkshop/CurlTransport), a different way of fetching encrypted data, or [Bare-Client](https://github.com/MercuryWorkshop/Bare-as-module3), the legacy (unencrypted!) transport.
+---
 
-See the [bare-mux](https://github.com/MercuryWorkshop/bare-mux) documentation for more information.
+## 🛠️ Setup / Usage
+
+Ensure you have **Node.js 18+** and **Git** installed on your server environment:
+
+```bash
+# Clone Node B Repository
+git clone [https://github.com/Nitroozz/Infinite-NODE-B.git](https://github.com/Nitroozz/Infinite-NODE-B.git) node-b
+cd node-b
+
+# Install Dependencies
+npm install
+
+# Launch Server (Runs on Port 4000)
+npm start
