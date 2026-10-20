@@ -48,3 +48,9 @@ form.addEventListener("submit", async (event) => {
 	}
 	frame.src = __uv$config.prefix + __uv$config.encodeUrl(url);
 });
+
+const initialUrl = new URLSearchParams(window.location.search).get("url");
+if (initialUrl) {
+	address.value = initialUrl;
+	form.requestSubmit();
+}
